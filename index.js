@@ -67,7 +67,7 @@ function loadModels() {
     (gltf) => {
       console.log(gltf);
       const root = gltf.scene;
-      root.scale.set(0.5, 0.5, 0.5);
+      root.scale.set(10, 10, 10);
       scene.add(root);
     },
     function (xhr) {
